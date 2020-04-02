@@ -1,0 +1,101 @@
+*{
+	box-sizing: border-box;
+}
+
+#mainheader{
+	background: #1D3C78;
+	color: white;
+	margin-left: auto;
+	margin-bottom: auto;
+	padding-bottom: 2px;
+}
+h1{
+	font-family: arial;
+	font-size: 40px;
+	margin-left: 230px;
+	margin-bottom: 10px;
+	padding-right: 300px;
+	float: left;
+}
+h2{
+	font-family: arial narrow;
+	font-size: 45px;
+}
+h3{
+	font-family: arial narrow;
+}
+#sign_in{
+	font-family: arial narrow;
+	margin-left: 400px;
+	padding-top: 20px;
+
+}
+.field{
+	display: inline-block;
+	margin-right: 30px;
+}
+.field label{
+	display: block;
+}
+#log1{
+	color: white;
+	background-color: #1D3C78; 
+}
+#login_p{
+	padding-left: 510px;
+}
+
+#sign_up{
+	font-family: arial narrow;
+}
+#p1{
+	font-family: arial narrow;
+
+}
+#p2{
+	font-family: arial narrow;
+	color: #4267B2;
+	font-size: 14px;
+}
+#p3{
+	font-family: arial narrow;
+	color: #4267B2;
+	font-size: 17px;
+}
+#button{
+	font-family: arial narrow;
+	background-color: green;
+	color: white;
+	border: none;
+	text-align: center;
+	padding: 7px 2px;
+	font-size: 20px;
+	border-radius: 6px;
+
+}
+#section_1{
+	background: #e6f0ff;
+	padding-bottom: 14px;
+	padding-top: 10px;
+}
+#div_1{
+	float: left;
+	margin-left: 200px;
+}
+#div_2{
+	margin-left: 900px;
+	font-family: arial narrow;
+	font-size: 15px;
+}
+#footer{
+	font-family: arial narrow;
+	text-align: center;
+	background: #ffffff;
+}
+@media only screen and (min-width: 600px;) {
+	#mainheader {width: 100%;}
+	#div-1 {width: 100%;}
+	#div-2 {width: 100%;}
+	#footer {width: 50%;}
+
+}
